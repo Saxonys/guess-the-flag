@@ -34,7 +34,7 @@ const flags = [
     guessesLeft: 10
   };
   
-  let gameFlags = [];
+  let gameFlags = []; // store array of flags
   
   // On page load, jQuery will load and run game scripts
   $(document).ready(function () {
