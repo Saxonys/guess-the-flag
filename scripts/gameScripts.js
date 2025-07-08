@@ -125,3 +125,4 @@ const flags = [
     return array.sort(() => Math.random() - 0.5);
   }
   
+// function triggerEasterEgg() {
