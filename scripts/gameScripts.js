@@ -43,7 +43,6 @@ const flags = [
     $('#greetBtn').on('click', greetUser);
     $('#resetBtn').on('click', resetGame);
     $('.answer-options').on('click', '.answerBtn', handleAnswer);
-    $('#secretZone').on('click', triggerEasterEgg);
   });
   
   // Set the greeting message to input name and start the game
