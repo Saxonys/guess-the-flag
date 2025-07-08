@@ -6,7 +6,7 @@
 
 **Author:** Saxony
 
-**Play it at:** [https://saxonys.github.io/guess-the-flag/](https://yourusername.github.io/guess-the-flag/)
+**Play it at:** [https://saxonys.github.io/guess-the-flag/](https://saxonys.github.io/guess-the-flag/)
 
 ---
 
