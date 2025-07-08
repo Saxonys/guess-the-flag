@@ -1,4 +1,4 @@
-// ===== COUNTRY LIST ======
+// ===== RANDOM COUNTRY LIST (obtained from https://flagcdn.com/en/codes.json) ======
 const flags = [
     { country: "France", code: "fr" },
     { country: "Germany", code: "de" },
@@ -36,7 +36,7 @@ const flags = [
   
   let gameFlags = [];
   
-  // Load the jQuery scripts on page load
+  // On page load, jQuery will load and run game scripts
   $(document).ready(function () {
     console.log("Scripts loaded");
     
@@ -91,7 +91,7 @@ const flags = [
     const correctFlag = gameFlags.pop();
     user.currentAnswer = correctFlag.country;
 
-    $('#flagImage').attr('src', `https://flagcdn.com/w320/${correctFlag.code}.png`);
+    $('#flagImage').attr('src', `https://flagcdn.com/w320/${correctFlag.code}.png`); // claudeai suggested using flagcdn.com for the flag images
 
     const otherChoices = shuffleArray(flags.filter(flag => flag.country !== correctFlag.country)).slice(0, 3); // get the first 3 random wrong choices
 
@@ -100,7 +100,6 @@ const flags = [
     const btns = allChoices.map(choice => `<button class="answerBtn">${choice.country}</button>`); // map the choices to the html
     
     $('.answer-options').html(btns.join('')); // add the choices to the html
-    $('#guessesLeft').text(user.guessesLeft);
   }
   
   // Checks if selected answer is correct and updates score accordingly
