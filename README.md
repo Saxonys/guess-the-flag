@@ -1,8 +1,11 @@
 # 🌍 Guess the Flag
 
 ### 🎮 A geography quiz game built with HTML, CSS, JavaScript, and jQuery  
+
 **Created:** July 2025
+
 **Author:** Saxony
+
 **Play it at:** [https://saxonys.github.io/guess-the-flag/](https://yourusername.github.io/guess-the-flag/)
 
 ---
@@ -28,11 +31,17 @@ Click the correct one to earn points.
 ## 💻 Folder Structure
 
 guess-the-flag/
+
 ├── index.html
+
 ├── styles/
+
 │ └── gameStyles.css
+
 ├── scripts/
+
 │ └── gameScripts.js
+
 └── README.md
 
 ---
